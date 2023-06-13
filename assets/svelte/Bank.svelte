@@ -71,7 +71,7 @@
     {/if}
     <div class="flex flex-col">
         <div style="min-width: 12em;" class="labels_around">
-            {#if bank.interest != null && bank.interest != 0 && bank.name != "Custom"}
+            {#if bank.interest != null && bank.interest != 0 && bank.name != "Oma"}
                 <p class="text-gray-500 text-xs">Interest</p>
                 <p class="text-gray-500 font-normal">
                     {bank.interest.toFixed(2)}% + {bank.euroborAeg}
