@@ -251,7 +251,7 @@
         {
             name: "SwedBank",
             interest: 2.29,
-            logo: "http://www.huddingecentrum.se/images/1.240.1402050732/swedbank770x335.jpg",
+            logo: "https://sasha.don.ee/wp-content/uploads/2023/06/swedbank770x335.jpg",
             link: "https://www.swedbank.ee/business/finance/leasing/car",
             euroborAeg: "6 kuu",
             electroCarSupport: true,
@@ -259,7 +259,7 @@
         {
             name: "LHV",
             interest: 1.95,
-            logo: "https://i.pinimg.com/736x/58/b2/de/58b2de496caa848622c45ecd96291ea8.jpg",
+            logo: "https://sasha.don.ee/wp-content/uploads/2023/06/58b2de496caa848622c45ecd96291ea8.jpg",
             link: "https://www.lhv.ee/et/liising",
             euroborAeg: "6 kuu",
             electroCarSupport: false,
@@ -267,7 +267,7 @@
         {
             name: "SEB",
             interest: 1.45,
-            logo: "http://bfaa.lt/wp-content/uploads/sites/6/2016/09/seb_logo.jpg",
+            logo: "https://sasha.don.ee/wp-content/uploads/2023/06/seb_logo.jpg",
             link: "https://www.seb.ee/eraklient/laenud/liising-mugav-viis-soiduki-soetamiseks",
             euroborAeg: "6 kuu",
             electroCarSupport: false,
@@ -275,7 +275,7 @@
         {
             name: "COOP",
             interest: 1.99,
-            logo: "http://wasa.ee/static/Coop_CMYK1.jpg",
+            logo: "https://sasha.don.ee/wp-content/uploads/2023/06/Coop_CMYK1.jpg",
             link: "https://www.cooppank.ee/autoliising",
             euroborAeg: "6 kuu",
             electroCarSupport: false,
@@ -283,7 +283,7 @@
         {
             name: "Luminor",
             interest: 2.49,
-            logo: "https://paytraq.sk/assets/svg/clients-logo/luminor_logo.png",
+            logo: "https://sasha.don.ee/wp-content/uploads/2023/06/luminor_logo.png",
             link: "https://luminor.ee/era/liising?static=true",
             euroborAeg: "3 kuu",
             electroCarSupport: false,
