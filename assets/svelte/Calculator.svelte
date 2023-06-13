@@ -291,7 +291,7 @@
     ];
 
     $: customBank = {
-        name: "Custom",
+        name: "Oma",
         interest: customPercent,
         logo: "",
         euroborAeg: "6 kuu",
@@ -340,11 +340,12 @@
                         <input
                             type="checkbox"
                             class="relative h-5 w-5 cursor-pointer rounded-md border border-blue-gray-200 transition-all"
-                            id="checkbox"
+                            id="oma_pank"
                             bind:checked={checked2}
                             on:click={() => () => (touched = "custom")}
+                            name="oma_pank"
                         />
-                        <h3 class="pl-2">Custom Pank</h3>
+                        <label for="oma_pank" class="pl-2">Oma Pank</label>
                     </div>
                 </div>
             </div>
