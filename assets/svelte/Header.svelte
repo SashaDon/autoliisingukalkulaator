@@ -1,20 +1,17 @@
 <script>
-
 </script>
 
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Orbit&family=PT+Mono&display=swap');
+</style>
 
 
 <header class="px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between border-b border-zinc-100 py-3 text-sm">
         <div class="flex items-center gap-4">
             <a href="/">
-                <!-- <img src={~p"/images/logo.svg"} width="36" /> -->
-                LOGO
+            <h2 style="    font-family: 'Orbit', sans-serif; font-family: 'PT Mono', monospace;">autokalk</h2>
             </a>
-            <p class="bg-brand/5 text-brand rounded-full px-2 font-medium leading-6">
-                v
-                <!-- <%= Application.spec(:phoenix, :vsn) %> -->
-            </p>
         </div>
         <div class="flex items-center gap-4 font-semibold leading-6 text-zinc-900">
             <div class="flex justify-center items-center h-full w-full">
