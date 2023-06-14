@@ -19,16 +19,16 @@
                     <!-- svelte-ignore a11y-autofocus -->
                     <input
                         type="text"
-                        placeholder="Session Code"
+                        placeholder="Sessioon kood"
                         name="session"
                         class="rounded"
                         autofocus
                         autocomplete="name"
                     />
-                    <button class="py-2 px-4 bg-black text-white rounded">Join Session</button>
+                    <button class="py-2 px-4 bg-black text-white rounded">Liitu sessioon</button>
                 </form>
 
-                <button phx-click="new_session" class="py-2 px-4 bg-black text-white rounded">New Session</button>
+                <button phx-click="new_session" class="py-2 px-4 bg-black text-white rounded">Uus sessioon</button>
             </div>
         </div>
     </div>

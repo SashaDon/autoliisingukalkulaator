@@ -331,8 +331,8 @@
                         bind:value={typeOfPerson2}
                         id="person_type"
                     >
-                        <option value="private">Private</option>
-                        <option value="legal">Legal</option>
+                        <option value="private">eraisikuna</option>
+                        <option value="legal">juriidilise isikuna</option>
                     </select>
                 </div>
                 <div>
