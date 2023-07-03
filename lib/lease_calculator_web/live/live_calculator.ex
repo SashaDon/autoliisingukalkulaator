@@ -14,7 +14,19 @@ defmodule LeaseCalculatorWeb.LiveCalculator do
 
       <LiveSvelte.render
         name="Calculator"
-        props={%{user_id: @user_id, pointers: @pointers, carData: @carData, carLease2: @carData["carLease"], percentages2: @carData["percentages"], typeOfPerson2: @carData["typeOfPerson"], typeOfLease2: @carData["typeOfLease"], checked2: @carData["checked"], customPercent: @carData["customPercent"]}}
+        props={
+          %{
+            user_id: @user_id,
+            pointers: @pointers,
+            carData: @carData,
+            carLease2: @carData["carLease"],
+            percentages2: @carData["percentages"],
+            typeOfPerson2: @carData["typeOfPerson"],
+            typeOfLease2: @carData["typeOfLease"],
+            checked2: @carData["checked"],
+            customPercent: @carData["customPercent"]
+          }
+        }
         class=""
       />
     """
