@@ -32,9 +32,9 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
 ));
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
-// fakecss:/Users/maxdon/Desktop/Elixir/autoliisingukalkulaator/assets/svelte/Bank.esbuild-svelte-fake-css
+// fakecss:/www/autoliisingukalkulaator/assets/svelte/Bank.esbuild-svelte-fake-css
 var init_ = __esm({
-  "fakecss:/Users/maxdon/Desktop/Elixir/autoliisingukalkulaator/assets/svelte/Bank.esbuild-svelte-fake-css"() {
+  "fakecss:/www/autoliisingukalkulaator/assets/svelte/Bank.esbuild-svelte-fake-css"() {
   }
 });
 
@@ -3025,9 +3025,9 @@ ${each(Object.entries(pointers), ([user_id, user_pointer]) => {
   }
 });
 
-// fakecss:/Users/maxdon/Desktop/Elixir/autoliisingukalkulaator/assets/svelte/Header.esbuild-svelte-fake-css
+// fakecss:/www/autoliisingukalkulaator/assets/svelte/Header.esbuild-svelte-fake-css
 var init_2 = __esm({
-  "fakecss:/Users/maxdon/Desktop/Elixir/autoliisingukalkulaator/assets/svelte/Header.esbuild-svelte-fake-css"() {
+  "fakecss:/www/autoliisingukalkulaator/assets/svelte/Header.esbuild-svelte-fake-css"() {
   }
 });
 
