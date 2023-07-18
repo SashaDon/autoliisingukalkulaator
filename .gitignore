@@ -4,7 +4,7 @@
 /node_modules
 /assets/node_modules
 
-/priv/static/
+# /priv/static/
 
 /installer/_build
 /installer/tmp
@@ -17,6 +17,6 @@
 /*.ez
 erl_crash.dump
 /node_modules
-/priv/static/
+# /priv/static/
 /config/prod.secret.exs
 /rel
