@@ -1,0 +1,7 @@
+defmodule LeaseCalculatorWeb.UserSocket do
+  use Phoenix.Socket
+
+  ## Channels
+  channel "room:*", LeaseCalculatorWeb.RoomChannel
+
+end

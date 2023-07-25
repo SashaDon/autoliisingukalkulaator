@@ -2,10 +2,14 @@ import Config
 
 # Configure your database
 config :lease_calculator, LeaseCalculator.Repo,
-  username: "puser",
-  password: "wPOFDdW",
-  hostname: "postgres",
-  database: "default_database",
+  #username: "puser",
+  username: "postgres",
+  #password: "wPOFDdW",
+  password: "",
+  #hostname: "postgres",
+  hostname: "localhost",
+  #database: "default_database",
+  database: "rossedwards",
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10

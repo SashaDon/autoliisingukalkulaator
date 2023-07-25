@@ -1,0 +1,45 @@
+<br/>
+<main class="">
+  <div class="">
+    <.flash_group flash={@flash} />
+    <%= "@inner_content" %>
+    <%= @options[:channel_id] %>
+    <br/>
+    <textarea id="chat" rows="10" cols="20"></textarea>
+    <br/>
+    <input id="text">
+    <br/>
+    <button id="submitButton" onclick="myFunction()">Submit</button>
+  </div>
+</main>
+<script>
+
+  
+  //let socket = new Socket("/socket")
+
+  //socket.connect()
+
+  // Now that you are connected, you can join channels with a topic:
+  //let channel = socket.channel("room:lobby", {})
+  //channel.join()
+  //  .receive("ok", resp => { console.log("Joined successfully", resp) })
+  //  .receive("error", resp => { console.log("Unable to join", resp) })
+
+  //socket.onopen = function(){
+  //    console.log(' has joined the Chat.');
+  //};
+
+
+  const myFunction = () => {
+
+    //alert("1");
+    document.getElementById('chat').value = document.getElementById('chat').value + "\n hello\n" + document.getElementById('text').value 
+    document.getElementById('text').value = "";
+
+  } 
+
+  //alert("hello");
+  document.getElementById('chat').value = "hello";
+  //document.getElementById("submitButton").onClick = alert("here");
+
+</script>

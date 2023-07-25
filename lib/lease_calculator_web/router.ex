@@ -18,8 +18,9 @@ defmodule LeaseCalculatorWeb.Router do
     pipe_through(:browser)
 
     # get "/", PageController, :home
+    get "/channels_test/:channel_id", ChannelsController, :home
     live("/", LiveCalculator)
-    live("/:session", LiveCalculator)
+    #live("/:session", LiveCalculator)
   end
 
   # Other scopes may use custom stacks.
